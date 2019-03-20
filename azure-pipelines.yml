@@ -5,11 +5,7 @@
 
 pool:
   vmImage: 'Ubuntu 16.04'
-  
-trigger:
-- master
-- develop
-
+ 
 steps:
 - task: Gradle@2
   inputs:
